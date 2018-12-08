@@ -6,5 +6,5 @@ PATTERN=`osascript -e 'text returned of (display dialog "Keep lines matching pat
 if [ -z "$PATTERN" ]; then
     cat
 else
-    grep -E '$PATTERN'
+    grep -E "$PATTERN"
 fi

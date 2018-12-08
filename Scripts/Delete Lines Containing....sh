@@ -6,5 +6,5 @@ PATTERN=`osascript -e 'text returned of (display dialog "Delete lines matching p
 if [ -z "$PATTERN" ]; then
     cat
 else
-    grep -v -E '$PATTERN'
+    grep -v -E "$PATTERN"
 fi
