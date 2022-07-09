@@ -13,5 +13,6 @@ Download from the [releases](https://github.com/playerofgames/CotEditor-Scripts/
 | Append to Lines... | Prompts for a suffix string and appends this to all lines. |
 | Prepend to Lines | Prompts for a prefix string and adds this to the beginning of all lines. |
 | Quote | Prepends `> ` to each line in the file |
-| Tidy JSON | Reformat JSON with tabs and line breaks matching the structure. (Based on [this script](http://www.kyleclegg.com/blog/tidy-json-formatting-with-textwrangler).) |
+| Tidy JSON (python) | Reformat JSON with tabs and line breaks matching the structure. Requires [python](https://www.python.org) to be installed if using macOS 12 (Monterey) or later. |
+| Tidy JSON (node) | Reformat JSON with tabs and line breaks matching the structure. Requires [Node.js](https://nodejs.org/) to be installed. |
 | Tidy XML | Reformat XML with tabs and line breaks matching the structure. (Based on [this script](https://magp.ie/2010/02/15/format-xml-with-textwrangler/).) |
